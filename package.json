@@ -1,0 +1,21 @@
+{
+  "name": "projmanagement",
+  "version": "1.0.0",
+  "description": "A project management application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "udemy",
+    "course",
+    "ApI",
+    "Backend"
+  ],
+  "author": "Rajvardhan singh",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}
