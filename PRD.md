@@ -1,5 +1,14 @@
 # Product Requirements Document (PRD)
 
+## Theoretical Framework
+
+### Project Management Philosophy
+This system is built upon modern collaborative project management principles, specifically integrating **Task Decomposition** and **Role-Based Governance**.
+*   **Hierarchical Task Decomposition:** The system adopts a granular approach where Complex Projects are broken down into manageable Tasks, which are further divided into molecular Subtasks. This theory suggests that breaking work into smaller units increases tractability and accurate progress tracking.
+*   **Role-Based Access Control (RBAC):** Theoretical security models suggest that least-privilege access ensures data integrity. This system implements a 3-tier hierarchy (Admin > Project Admin > Member) to enforce strict boundaries on write/delete operations while democratizing read access for collaboration.
+*   **State-Transition Logic:** Tasks follow a strict finite state machine (Todo -> In Progress -> Done) to provide a deterministic view of project health.
+
+
 ## Project Camp Backend
 
 ### 1. Product Overview
